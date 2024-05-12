@@ -50,7 +50,18 @@ class Block {
 
   toString() {
     const { hash, height, carnet, nombre, correo, telefono, time, previousBlockHash } = this;
-    return `Block -
+    return `nodo -
+        hash: ${hash}
+        height: ${height}
+        carnet: ${carnet}
+        nombre: ${nombre}
+        correo: ${correo}
+        telefono: ${telefono}
+        tiempo: ${time}
+        BlockHash: ${previousBlockHash}
+        ------------------------------------- \n`
+        +
+        `nodo -
         hash: ${hash}
         height: ${height}
         carnet: ${carnet}
